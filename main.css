@@ -1,1 +1,104 @@
 uwaw
+/**
+ * @name 4RC
+ * @version 1
+ * @description theme khusus untuk 4RC, dengan layout ZelkBD
+ * @author 4RC
+
+ */
+
+ /*--------------IMPORTS------------- */
+ @import url(https://schnensch0.github.io/zelk/main.css);
+
+ /*-------------VARIABLES-------------*/
+ :root {
+   /* set to 'unset' to show */
+   --scrollbars: none;
+   /* user notes */
+   --notes: none;
+   /* direct message box */
+   --message: none;
+   /* set to '4px solid' to show */
+   --embed-color: none;
+   /* set to 'Inter', sans-serif !important to use Inter font*/
+   --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+   --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+   --border-radius-1: 10px;
+   --border-radius-2: 8px;
+ }
+ /*-----------CUSTOM COLORS-----------*/
+ /*-------------DARK MODE-------------*/
+ /*---------------SETUP SENDIRI---------------*/
+ .theme-dark {
+  --accent-color: #ffffff;
+  --background-1: #487AA5;
+  --background-2: #FF8092;
+  --background-accent: #AF49B7;
+  --border-color: #F9E1E0;
+  --background-mentioned: #FF8092;
+  --background-mentioned-hover: #487AA5;
+ }
+ 
+ /*-------------ADVANCED--------------*/
+ .theme-dark {
+   /* background */
+   --background-primary: var(--background-1);
+   --background-primary-alt: var(--background-1);
+   --background-secondary: var(--background-1);
+   --background-secondary-alt: var(--background-1);
+   --background-tertiary: var(--background-2);
+   --background-accent-gradient: var(--background-2);
+   --background-floating: var(--background-1);
+ 
+   /* modifiers */
+   --background-modifier-hover: var(--accent-color);
+   --background-modifier-active: var(--background-1);
+   --background-modifier-selected: var(--accent-color);
+   --background-modifier-accent: transparent;
+   --background-message-hover: transparent;
+   /* text */
+   --text-normal: #ffffff;
+   --text-link: #379eff;
+   --text-positive: var(--text-normal);
+   --text-muted: var(--accent-color);
+   --interactive-selected: var(--background-1);
+   --interactive-active: var(--text-normal);
+   --interactive-normal: var(--text-normal);
+   --interactive-muted: var(--button-background-active);
+   --channels-default: var(--text-muted);
+   --header-primary: var(--text-normal);
+   --header-secondary: var(--text-muted);
+   /* more */
+   --settings-icon-color: #var(--background-1);
+   --control-brand-foreground: var(--accent-color);
+   --info-warning-foreground: var(--accent-color);
+   --tab-selected: #var(--background-1);
+   --switch: #var(--background-1);
+   --activity-card-background: var(--background-1);
+   --brand-experiment: #var(--background-1) !important;
+   /* buttons */
+   --button-accent-active: #ffffff;
+   --button-accent: #ffffff;
+   --button-destructive: #fb7c7c;
+   --button-destructive-hover: #ff929b;
+   --button-destructive-active: #fa4a4a;
+   --button-background: #var(--background-1);
+   --button-background-hover: var(--accent-color);
+   --button-background-active: var(--accent-color);
+   --button-accent-hover: #var(--background-1);
+ 
+ }
+ 
+ /*-----------DON'T CHANGE------------*/
+ :root {
+   --outdated-122: none !important;
+ }
+ /*  usrbg | snippet by _david_#0218  */
+ .userPopout-2j1gM4[style*="--user-background"] .banner-1YaD3N, .root-8LYsGj[style*="--user-background"] .banner-1YaD3N {
+   height: 120px;
+   background: var(--background-tertiary) var(--user-background) var(--user-popout-position, center) center / cover !important;
+ }
+ .root-8LYsGj[style*="--user-background"] .banner-1YaD3N {
+   height: 240px;
+ }
+  /*-----------DIMODIF OLEH 4RC------------*/
